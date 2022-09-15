@@ -1,4 +1,4 @@
-import logo from '@/assets/images/ehh_logo.png'
+import logo from '~/assets/images/ehh_logo.png'
 
 export function Logo() {
   return (
