@@ -1,12 +1,12 @@
 import { Footer } from '~/components/Footer'
 import { Header } from '~/components/Header'
-import { Hero } from '~/components/Hero'
+import { SubPageHero } from '~/components/SubPageHero'
 
-export default function Index() {
+export default function About() {
   return (
     <div>
       <Header />
-      <Hero />
+      <SubPageHero />
       <main className="h-[800px]"></main>
       <Footer />
     </div>

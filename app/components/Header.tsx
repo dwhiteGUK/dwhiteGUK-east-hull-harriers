@@ -76,8 +76,8 @@ function MobileNavigation() {
             as="div"
             className="absolute inset-x-0 top-full mt-4 flex origin-top flex-col rounded-2xl bg-white p-4 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5"
           >
-            <MobileNavLink href="#home">Home</MobileNavLink>
-            <MobileNavLink href="#about">About</MobileNavLink>
+            <MobileNavLink href="/">Home</MobileNavLink>
+            <MobileNavLink href="/about">About</MobileNavLink>
             <MobileNavLink href="#races">Our Races</MobileNavLink>
             <MobileNavLink href="#contact">Contact</MobileNavLink>
             <hr className="m-2 border-slate-300/40" />
@@ -96,11 +96,11 @@ export function Header() {
         <nav className="relative z-50 flex justify-between">
           <div className="flex items-center md:gap-x-12">
             <a href="#" aria-label="Home">
-              <Logo className="h-10 w-auto" />
+              <Logo className="w-20" />
             </a>
             <div className="hidden md:flex md:gap-x-6">
-              <NavLink href="#home">Home</NavLink>
-              <NavLink href="#about">About</NavLink>
+              <NavLink href="/">Home</NavLink>
+              <NavLink href="/about">About</NavLink>
               <NavLink href="#races">Our Races</NavLink>
               <NavLink href="#contact">Contact</NavLink>
             </div>
