@@ -6,8 +6,8 @@ import zac from '~/assets/images/zac-ong-RYvOI54rmPw-unsplash.jpg'
 
 export function Hero() {
   return (
-    <div className="h-[80vh] md:h-[600px] flex flex-row overflow-x-scroll snap-x  snap-proximity bg-slate-200">
-      <div className="group relative grid grid-cols-1 grid-rows-1 basis-full shrink-0 md:basis-1/3">
+    <div className="h-[80vh] md:h-[600px] flex flex-row overflow-x-scroll snap-x snap-mandatory bg-slate-200">
+      <div className="snap-center group relative grid grid-cols-1 grid-rows-1 basis-full shrink-0 md:basis-1/3">
         <div className="col-start-1 row-start-1 col-span-1 row-span-1 z-10">
           <img
             src={fabio}
@@ -29,7 +29,7 @@ export function Hero() {
           </Button>
         </div>
       </div>
-      <div className="group relative grid grid-cols-1 grid-rows-1 basis-full shrink-0 md:basis-1/3">
+      <div className="snap-center group relative grid grid-cols-1 grid-rows-1 basis-full shrink-0 md:basis-1/3">
         <div className="col-start-1 row-start-1 col-span-1 row-span-1 z-10">
           <img
             src={josh}
@@ -51,7 +51,7 @@ export function Hero() {
           </Button>
         </div>
       </div>
-      <div className="group relative grid grid-cols-1 grid-rows-1 basis-full shrink-0 md:basis-1/3">
+      <div className="snap-center group relative grid grid-cols-1 grid-rows-1 basis-full shrink-0 md:basis-1/3">
         <div className="col-start-1 row-start-1 col-span-1 row-span-1 z-10">
           <img
             src={zac}
