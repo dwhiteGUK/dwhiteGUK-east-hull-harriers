@@ -39,15 +39,13 @@ export default function ClubHistory() {
               <div className="prose prose-lg prose-red mx-auto mt-6 text-slate-900">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                   <figure>
-                    <div>
-                      <img
-                        src={oldPic}
-                        alt="East Hull Harriers from Yesteryear"
-                        width={300}
-                        height={240}
-                        className="w-full rounded-lg"
-                      />
-                    </div>
+                    <img
+                      src={oldPic}
+                      alt="East Hull Harriers from Yesteryear"
+                      width={300}
+                      height={240}
+                      className="w-full rounded-lg"
+                    />
                     <figcaption>East Hull Harriers from Yesteryear</figcaption>
                   </figure>
                   <p>

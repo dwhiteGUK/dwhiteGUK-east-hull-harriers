@@ -66,15 +66,13 @@ export default function ClubHistoryRevisited() {
                 the Hull 'The Good Old Days' section.
               </p>
               <figure>
-                <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
-                  <img
-                    className="w-full rounded-lg"
-                    src={crownClubhouse}
-                    alt="Crown Inn Clubhouse, Holderness Road"
-                    width={720}
-                    height={440}
-                  />
-                </div>
+                <img
+                  className="w-full rounded-lg"
+                  src={crownClubhouse}
+                  alt="Crown Inn Clubhouse, Holderness Road"
+                  width={720}
+                  height={440}
+                />
                 <figcaption>The Crown Inn, Holderness Road</figcaption>
               </figure>
               <p>
@@ -126,15 +124,13 @@ export default function ClubHistoryRevisited() {
                   </p>
                 </div>
                 <figure>
-                  <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
-                    <img
-                      className="w-full rounded-lg"
-                      src={johnHakeney}
-                      alt="Crown Inn Clubhouse, Holderness Road"
-                      width={102}
-                      height={160}
-                    />
-                  </div>
+                  <img
+                    className="w-full rounded-lg"
+                    src={johnHakeney}
+                    alt="Crown Inn Clubhouse, Holderness Road"
+                    width={102}
+                    height={160}
+                  />
                   <figcaption>The Crown Inn, Holderness Road</figcaption>
                 </figure>
               </div>
@@ -147,15 +143,13 @@ export default function ClubHistoryRevisited() {
                   and what used to be the Hardware shop in Sutton was part of
                   their living accomodations.
                 </figcaption>
-                <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
-                  <img
-                    src={homeOakFarm}
-                    className="w-full rounded-lg"
-                    alt="The London Gazette snippet"
-                    width={1120}
-                    height={656}
-                  />
-                </div>
+                <img
+                  src={homeOakFarm}
+                  className="w-full rounded-lg"
+                  alt="The London Gazette snippet"
+                  width={1120}
+                  height={656}
+                />
               </figure>
 
               <figure>
@@ -167,24 +161,20 @@ export default function ClubHistoryRevisited() {
                   their living accomodations.
                 </figcaption>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                  <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
-                    <img
-                      src={remnantsHomeOakFarmA}
-                      className="w-full rounded-lg"
-                      alt="Remnants of Home Oak Farm"
-                      width={512}
-                      height={384}
-                    />
-                  </div>
-                  <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
-                    <img
-                      src={remnantsHomeOakFarmB}
-                      className="w-full rounded-lg"
-                      alt="Remnants of Home Oak Farm"
-                      width={431}
-                      height={384}
-                    />
-                  </div>
+                  <img
+                    src={remnantsHomeOakFarmA}
+                    className="w-full rounded-lg"
+                    alt="Remnants of Home Oak Farm"
+                    width={512}
+                    height={384}
+                  />
+                  <img
+                    src={remnantsHomeOakFarmB}
+                    className="w-full rounded-lg"
+                    alt="Remnants of Home Oak Farm"
+                    width={431}
+                    height={384}
+                  />
                 </div>
               </figure>
               <figure>
@@ -192,15 +182,13 @@ export default function ClubHistoryRevisited() {
                   Remnants of Holme Oak Farm building, (Old Kirk Farm Cowshed).
                   Location below.
                 </figcaption>
-                <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
-                  <img
-                    src={mapHomeOakFarm}
-                    className="w-full rounded-lg"
-                    alt="Map showing location of Home Oak Farm"
-                    width={644}
-                    height={554}
-                  />
-                </div>
+                <img
+                  src={mapHomeOakFarm}
+                  className="w-full rounded-lg"
+                  alt="Map showing location of Home Oak Farm"
+                  width={644}
+                  height={554}
+                />
               </figure>
 
               <h3>Further Investigations</h3>
@@ -228,15 +216,13 @@ export default function ClubHistoryRevisited() {
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <figure>
-                  <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
-                    <img
-                      src={ethelHakeney}
-                      className="w-full rounded-lg"
-                      alt="Ethel Hakeney sat outside the clubhouse"
-                      width={300}
-                      height={200}
-                    />
-                  </div>
+                  <img
+                    src={ethelHakeney}
+                    className="w-full rounded-lg"
+                    alt="Ethel Hakeney sat outside the clubhouse"
+                    width={300}
+                    height={200}
+                  />
                   <figcaption>
                     The picture shows Ethel Hakeney sat on what may have been
                     part of the old Oak Tree outside the Clubhouse. View behind
@@ -246,15 +232,13 @@ export default function ClubHistoryRevisited() {
                   </figcaption>
                 </figure>
                 <figure>
-                  <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
-                    <img
-                      src={harriersBenefactor}
-                      className="w-full rounded-lg"
-                      alt="East Hull Harriers benefactor with his family"
-                      width={300}
-                      height={300}
-                    />
-                  </div>
+                  <img
+                    src={harriersBenefactor}
+                    className="w-full rounded-lg"
+                    alt="East Hull Harriers benefactor with his family"
+                    width={300}
+                    height={300}
+                  />
                   <figcaption>
                     <p>
                       East Hull Harriers benefactor with his family circa 1930.
@@ -338,15 +322,13 @@ export default function ClubHistoryRevisited() {
               <p>George died in 1969 aged 72.</p>
 
               <figure>
-                <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
-                  <img
-                    src={april1965}
-                    className="w-full rounded-lg"
-                    alt="Several members of the club at Portobello Scout Hut in April 1965"
-                    width={959}
-                    height={731}
-                  />
-                </div>
+                <img
+                  src={april1965}
+                  className="w-full rounded-lg"
+                  alt="Several members of the club at Portobello Scout Hut in April 1965"
+                  width={959}
+                  height={731}
+                />
                 <figcaption>
                   <p>
                     April 1965 at the Portobello Scout Hut. In the photo are,
@@ -365,15 +347,13 @@ export default function ClubHistoryRevisited() {
               </figure>
 
               <figure>
-                <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
-                  <img
-                    src={ehhDinner}
-                    className="w-full rounded-lg"
-                    alt="East Hull Harriers dinner"
-                    width={581}
-                    height={405}
-                  />
-                </div>
+                <img
+                  src={ehhDinner}
+                  className="w-full rounded-lg"
+                  alt="East Hull Harriers dinner"
+                  width={581}
+                  height={405}
+                />
                 <figcaption>
                   <p>
                     Top Left to right:- Unknown ,Mrs Stone, Major George H
@@ -398,34 +378,28 @@ export default function ClubHistoryRevisited() {
                 </figcaption>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
-                    <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
-                      <img
-                        src={hullDailyMailA}
-                        className="w-full rounded-lg"
-                        alt="Hull Daily Mail article mourning the loss of Major George H Stone"
-                        width={573}
-                        height={236}
-                      />
-                    </div>
-                    <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
-                      <img
-                        src={hullDailyMailB}
-                        className="w-full rounded-lg"
-                        alt="Hull Daily Mail article mourning the loss of Major George H Stone"
-                        width={539}
-                        height={708}
-                      />
-                    </div>
-                  </div>
-                  <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
                     <img
-                      src={hullDailyMailC}
+                      src={hullDailyMailA}
                       className="w-full rounded-lg"
                       alt="Hull Daily Mail article mourning the loss of Major George H Stone"
-                      width={313}
-                      height={986}
+                      width={573}
+                      height={236}
+                    />
+                    <img
+                      src={hullDailyMailB}
+                      className="w-full rounded-lg"
+                      alt="Hull Daily Mail article mourning the loss of Major George H Stone"
+                      width={539}
+                      height={708}
                     />
                   </div>
+                  <img
+                    src={hullDailyMailC}
+                    className="w-full rounded-lg"
+                    alt="Hull Daily Mail article mourning the loss of Major George H Stone"
+                    width={313}
+                    height={986}
+                  />
                 </div>
               </figure>
             </div>
