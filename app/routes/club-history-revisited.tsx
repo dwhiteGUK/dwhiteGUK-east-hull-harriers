@@ -5,14 +5,24 @@ import { SubPageHero } from '~/components/SubPageHero'
 import presbyterian from '~/assets/images/Holderness-Road-Presbyterian-Harriers.jpg'
 import crownClubhouse from '~/assets/images/Crown-Clubhouse.jpg'
 import johnHakeney from '~/assets/images/John-William-Hakeney.jpg'
+import homeOakFarm from '~/assets/images/Holme-Oak-farm.jpg'
+import remnantsHomeOakFarmA from '~/assets/images/Remnants-of-Holme-Oak-Farm-building-Old-Kirk-Farm-Cowshed-a.jpg'
+import remnantsHomeOakFarmB from '~/assets/images/Remnants-of-Holme-Oak-Farm-building-Old-Kirk-Farm-Cowshed-b.jpg'
+import mapHomeOakFarm from '~/assets/images/Map-Showing-Location-of-Holme-Oak-Farm.jpg'
+import ethelHakeney from '~/assets/images/Ethel-Hakeney-300x200.jpg'
+import harriersBenefactor from '~/assets/images/East-Hull-Harriers-benefactor-700x700.jpg'
+import april1965 from '~/assets/images/April-1965-at-the-Portobello-Scout-Hut.jpg'
+import ehhDinner from '~/assets/images/East-Hull-Harrier-dinner.jpg'
+import hullDailyMailA from '~/assets/images/HULL-DAILY-MAIL-Nov-20th-1969-a.jpg'
+import hullDailyMailB from '~/assets/images/HULL-DAILY-MAIL-Nov-20th-1969-b.jpg'
+import hullDailyMailC from '~/assets/images/HULL-DAILY-MAIL-Nov-20th-1969-c.jpg'
 
 export default function ClubHistoryRevisited() {
   return (
     <div>
       <Header />
       <main>
-        <SubPageHero heading="Club History Revisited" />
-
+        <SubPageHero heading="Club History Revisited" />©
         <div className="relative overflow-hidden bg-white py-16">
           <div className="relative px-4 sm:px-6 lg:px-8">
             <div className="mx-auto max-w-prose text-lg">
@@ -24,7 +34,7 @@ export default function ClubHistoryRevisited() {
                   Back At East Hull Harriers History
                 </span>
               </h2>
-              <div className="grid grid-cols-2 gap-8 mt-8">
+              <div className="grid grid-col-1 md:grid-cols-2 gap-8 mt-8">
                 <p className="text-xl leading-8 text-gray-500">
                   After reading the Graham Brummitt article in the Club History
                   section of the website written in 1993, I found it fascinating
@@ -73,15 +83,15 @@ export default function ClubHistoryRevisited() {
                 for Fred Rumsby who died while competing in the 2nd year.
               </p>
               <p>
-                Article Published in The Times, 5 April, 1909 :- Frederick
-                Rumsby, a prominent Hull runner, died yesterday without
-                regaining consciousness, as the result of engaging in a 20 miles
-                Marathon race on Saturday. During the race Rumsby, several
-                times, complained of dizziness to the cyclist scout accompanying
-                him, but kept on running. Just as he was finishing the 20 miles
-                he collapsed, and was carried into an Inn, where he lay
-                unconscious till death took place. He was only 22, and won the
-                race last year.
+                <strong>Article Published in The Times, 5 April, 1909</strong>{' '}
+                :- Frederick Rumsby, a prominent Hull runner, died yesterday
+                without regaining consciousness, as the result of engaging in a
+                20 miles Marathon race on Saturday. During the race Rumsby,
+                several times, complained of dizziness to the cyclist scout
+                accompanying him, but kept on running. Just as he was finishing
+                the 20 miles he collapsed, and was carried into an Inn, where he
+                lay unconscious till death took place. He was only 22, and won
+                the race last year.
               </p>
               <p>
                 After the Crown things become a little confused. The Club moved
@@ -90,7 +100,7 @@ export default function ClubHistoryRevisited() {
                 did not exist under that name. It would appear that the farm
                 name may have been a nickname of some sort.
               </p>
-              <div className="grid grid-cols-2 gap-8 mt-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
                 <div>
                   <p>
                     I have found that Kirk's Farm in Sutton was owned by Abraham
@@ -127,6 +137,70 @@ export default function ClubHistoryRevisited() {
                 </figure>
               </div>
 
+              <figure>
+                <figcaption>
+                  Shown below from THE LONDON GAZETTE, 20 JULY , 1926. States
+                  that John William was owner of Holme Oak farm, his family
+                  owned the Cricket Field as well. The Family also had a Smithy
+                  and what used to be the Hardware shop in Sutton was part of
+                  their living accomodations.
+                </figcaption>
+                <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
+                  <img
+                    src={homeOakFarm}
+                    className="w-full rounded-lg"
+                    alt="The London Gazette snippet"
+                    width={1120}
+                    height={656}
+                  />
+                </div>
+              </figure>
+
+              <figure>
+                <figcaption>
+                  Shown below from THE LONDON GAZETTE, 20 JULY , 1926. States
+                  that John William was owner of Holme Oak farm, his family
+                  owned the Cricket Field as well. The Family also had a Smithy
+                  and what used to be the Hardware shop in Sutton was part of
+                  their living accomodations.
+                </figcaption>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                  <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
+                    <img
+                      src={remnantsHomeOakFarmA}
+                      className="w-full rounded-lg"
+                      alt="Remnants of Home Oak Farm"
+                      width={512}
+                      height={384}
+                    />
+                  </div>
+                  <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
+                    <img
+                      src={remnantsHomeOakFarmB}
+                      className="w-full rounded-lg"
+                      alt="Remnants of Home Oak Farm"
+                      width={431}
+                      height={384}
+                    />
+                  </div>
+                </div>
+              </figure>
+              <figure>
+                <figcaption>
+                  Remnants of Holme Oak Farm building, (Old Kirk Farm Cowshed).
+                  Location below.
+                </figcaption>
+                <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
+                  <img
+                    src={mapHomeOakFarm}
+                    className="w-full rounded-lg"
+                    alt="Map showing location of Home Oak Farm"
+                    width={644}
+                    height={554}
+                  />
+                </div>
+              </figure>
+
               <h3>Further Investigations</h3>
               <p>
                 Further to investigations into the clubhouse whereabouts it is
@@ -150,10 +224,49 @@ export default function ClubHistoryRevisited() {
                 warmed for their return.
               </p>
 
-              <p>East Hull Harriers benefactor with his family circa 1930.</p>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <figure>
+                  <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
+                    <img
+                      src={ethelHakeney}
+                      className="w-full rounded-lg"
+                      alt="Ethel Hakeney sat outside the clubhouse"
+                      width={300}
+                      height={200}
+                    />
+                  </div>
+                  <figcaption>
+                    The picture shows Ethel Hakeney sat on what may have been
+                    part of the old Oak Tree outside the Clubhouse. View behind
+                    is what is now Howdale Road Estate. (The Clubhouse itself
+                    was erected by the Members and rumoured to be the same one
+                    relocated from outside the Crown Inn
+                  </figcaption>
+                </figure>
+                <figure>
+                  <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
+                    <img
+                      src={harriersBenefactor}
+                      className="w-full rounded-lg"
+                      alt="East Hull Harriers benefactor with his family"
+                      width={300}
+                      height={300}
+                    />
+                  </div>
+                  <figcaption>
+                    <p>
+                      East Hull Harriers benefactor with his family circa 1930.
+                    </p>
+                    <p>
+                      Picture shows John and Martha with children:- Left to
+                      Right George, Ernest (back), Ethel (Front) and Edith.
+                    </p>
+                  </figcaption>
+                </figure>
+              </div>
 
               <h3>The Major</h3>
-              <p>Major George Henry Stone Born 1897 – Died 1969.</p>
+              <p>Major George Henry Stone Born 1897 - Died 1969.</p>
 
               <p>
                 George's daughter Margaret now 88 has fond memories of her
@@ -219,6 +332,100 @@ export default function ClubHistoryRevisited() {
                 seen filling the tin bath and making the tea for the runners
                 return. We were very fortunate to have him.
               </p>
+
+              <p>George died in 1969 aged 72.</p>
+
+              <figure>
+                <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
+                  <img
+                    src={april1965}
+                    className="w-full rounded-lg"
+                    alt="Several members of the club at Portobello Scout Hut in April 1965"
+                    width={959}
+                    height={731}
+                  />
+                </div>
+                <figcaption>
+                  <p>
+                    April 1965 at the Portobello Scout Hut. In the photo are,
+                    L.to R Chris Peachey (Maj. Stone's grandson) and Junior boys
+                    CC Champ., Peter Moon ( Youths CC Champion). Maj. Stone
+                    (President), Graham Brummitt sportsman of the year, Ted
+                    Beaumont (Hon. Sec) Guy Buckley (senior CC Champion) and
+                    Steve Kairis (Boys CC Champion).
+                  </p>
+                  <p>
+                    Also in the picture are two gate like trophies which
+                    according to Margaret these used to be hand made by Dick
+                    Dobson were given out as trophies.
+                  </p>
+                </figcaption>
+              </figure>
+
+              <figure>
+                <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
+                  <img
+                    src={ehhDinner}
+                    className="w-full rounded-lg"
+                    alt="East Hull Harriers dinner"
+                    width={581}
+                    height={405}
+                  />
+                </div>
+                <figcaption>
+                  <p>
+                    Top Left to right:- Unknown ,Mrs Stone, Major George H
+                    Stone, Avril Beaumont, Ted Beaumont, Ted's Brother.
+                  </p>
+                  <p>
+                    Middle Left :-Mrs Ken Hurry, Bottom three :- Unknown, George
+                    Smith and Avril Smith.
+                  </p>
+                  <p>
+                    Photo was taken at what appears to be an East Hull Harrier
+                    dinner sometime during the 1960's.
+                  </p>
+                </figcaption>
+              </figure>
+
+              <figure>
+                <figcaption>
+                  <strong>
+                    Articles from the HULL DAILY MAIL Nov 20th 1969
+                  </strong>
+                </figcaption>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div>
+                    <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
+                      <img
+                        src={hullDailyMailA}
+                        className="w-full rounded-lg"
+                        alt="Hull Daily Mail article mourning the loss of Major George H Stone"
+                        width={573}
+                        height={236}
+                      />
+                    </div>
+                    <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
+                      <img
+                        src={hullDailyMailB}
+                        className="w-full rounded-lg"
+                        alt="Hull Daily Mail article mourning the loss of Major George H Stone"
+                        width={539}
+                        height={708}
+                      />
+                    </div>
+                  </div>
+                  <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
+                    <img
+                      src={hullDailyMailC}
+                      className="w-full rounded-lg"
+                      alt="Hull Daily Mail article mourning the loss of Major George H Stone"
+                      width={313}
+                      height={986}
+                    />
+                  </div>
+                </div>
+              </figure>
             </div>
           </div>
         </div>
