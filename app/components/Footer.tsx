@@ -6,11 +6,6 @@ const navigation = {
     { name: 'Club History', href: '/club-history' },
     { name: 'Club History Revisited', href: '/club-history-revisited' },
   ],
-  support: [
-    { name: 'Pricing', href: '#' },
-    { name: 'Documentation', href: '#' },
-    { name: 'Guides', href: '#' },
-  ],
   legal: [
     { name: 'Claim', href: '#' },
     { name: 'Privacy', href: '#' },
@@ -49,7 +44,7 @@ export function Footer() {
         Footer
       </h2>
       <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-        <div className="xl:grid xl:grid-cols-3 xl:gap-8">
+        <div className="md:grid md:grid-cols-2 md:gap-8">
           <div className="space-y-8 xl:col-span-1">
             <Logo className="w-16" />
             <p className="text-base text-white">
@@ -68,55 +63,34 @@ export function Footer() {
               ))}
             </div>
           </div>
-          <div className="mt-12 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
-            <div className="md:grid md:grid-cols-2 md:gap-8">
-              <div className="mt-12 md:mt-0">
-                <h3 className="text-base font-medium text-gray-900">About</h3>
-                <ul role="list" className="mt-4 space-y-4">
-                  {navigation.about.map((item) => (
-                    <li key={item.name}>
-                      <a
-                        href={item.href}
-                        className="text-base text-white hover:text-gray-900"
-                      >
-                        {item.name}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+          <div className="grid grid-cols-2 gap-8">
+            <div>
+              <ul className="mt-4 space-y-4">
+                {navigation.about.map((item) => (
+                  <li key={item.name}>
+                    <a
+                      href={item.href}
+                      className="text-base text-white hover:text-gray-900"
+                    >
+                      {item.name}
+                    </a>
+                  </li>
+                ))}
+              </ul>
             </div>
-            <div className="md:grid md:grid-cols-2 md:gap-8">
-              <div>
-                <h3 className="text-base font-medium text-gray-900">Support</h3>
-                <ul role="list" className="mt-4 space-y-4">
-                  {navigation.support.map((item) => (
-                    <li key={item.name}>
-                      <a
-                        href={item.href}
-                        className="text-base text-white hover:text-gray-900"
-                      >
-                        {item.name}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <div className="mt-12 md:mt-0">
-                <h3 className="text-base font-medium text-gray-900">Legal</h3>
-                <ul role="list" className="mt-4 space-y-4">
-                  {navigation.legal.map((item) => (
-                    <li key={item.name}>
-                      <a
-                        href={item.href}
-                        className="text-base text-white hover:text-gray-900"
-                      >
-                        {item.name}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+            <div>
+              <ul className="mt-4 space-y-4">
+                {navigation.legal.map((item) => (
+                  <li key={item.name}>
+                    <a
+                      href={item.href}
+                      className="text-base text-white hover:text-gray-900"
+                    >
+                      {item.name}
+                    </a>
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
         </div>
