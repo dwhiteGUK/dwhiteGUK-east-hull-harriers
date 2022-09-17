@@ -66,13 +66,15 @@ export default function ClubHistoryRevisited() {
                 the Hull 'The Good Old Days' section.
               </p>
               <figure>
-                <img
-                  className="w-full rounded-lg"
-                  src={crownClubhouse}
-                  alt="Crown Inn Clubhouse, Holderness Road"
-                  width={720}
-                  height={440}
-                />
+                <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
+                  <img
+                    className="w-full rounded-lg"
+                    src={crownClubhouse}
+                    alt="Crown Inn Clubhouse, Holderness Road"
+                    width={720}
+                    height={440}
+                  />
+                </div>
                 <figcaption>The Crown Inn, Holderness Road</figcaption>
               </figure>
               <p>

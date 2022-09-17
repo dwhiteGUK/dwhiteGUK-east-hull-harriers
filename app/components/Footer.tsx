@@ -3,7 +3,7 @@ import { Logo } from '~/components/Logo'
 const navigation = {
   about: [
     { name: 'About', href: '/about' },
-    { name: 'Club History', href: '#' },
+    { name: 'Club History', href: '/club-history' },
     { name: 'Club History Revisited', href: '/club-history-revisited' },
   ],
   support: [
