@@ -78,7 +78,7 @@ function MobileNavigation() {
           >
             <MobileNavLink href="/">Home</MobileNavLink>
             <MobileNavLink href="/about">About</MobileNavLink>
-            <MobileNavLink href="#races">Our Races</MobileNavLink>
+            <MobileNavLink href="/races">Our Races</MobileNavLink>
             <MobileNavLink href="#contact">Contact</MobileNavLink>
             <hr className="m-2 border-slate-300/40" />
             <MobileNavLink href="/login">Sign in</MobileNavLink>
@@ -101,7 +101,7 @@ export function Header() {
             <div className="hidden md:flex md:gap-x-6">
               <NavLink href="/">Home</NavLink>
               <NavLink href="/about">About</NavLink>
-              <NavLink href="#races">Our Races</NavLink>
+              <NavLink href="/races">Our Races</NavLink>
               <NavLink href="#contact">Contact</NavLink>
             </div>
           </div>
