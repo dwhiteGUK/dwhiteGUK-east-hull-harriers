@@ -63,7 +63,7 @@ export function Footer() {
               ))}
             </div>
           </div>
-          <div className="grid grid-cols-2 gap-8">
+          <div className="grid grid-cols-2 gap-8 mt-8 md:mt-28">
             <div>
               <ul className="mt-4 space-y-4">
                 {navigation.about.map((item) => (
